@@ -15,6 +15,6 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 app.use('/', router);
 
-app.listen(8080, () => {
-    console.log('Server running at port 8080');
+app.listen(8081, () => {
+    console.log('Server running at port 8081');
 });
